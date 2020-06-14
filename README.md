@@ -15,3 +15,4 @@ The node-red flow of my project is as follows:
 
 1. Chatbot Link: [One Plus 8 Customer Chatbot](https://smart-doc-understanding.eu-gb.mybluemix.net/ui/#!/0?socketid=Tsx4fXG1K1MxCHoyAAAv)
 2. Project Video: [Demonstration](https://youtu.be/Pb1gtQGxnQc)
+3. Testimonial Video: [Thank you](https://youtu.be/v1yUOzzkuDg)
