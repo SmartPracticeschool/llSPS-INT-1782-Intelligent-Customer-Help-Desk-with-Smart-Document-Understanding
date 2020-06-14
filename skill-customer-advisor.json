@@ -1,305 +1,44 @@
 {
   "intents": [
     {
-      "intent": "General_Connect_to_Agent",
-      "examples": [
-        {
-          "text": "Put me through to someone"
-        },
-        {
-          "text": "representative"
-        },
-        {
-          "text": "I want to speak to a person"
-        },
-        {
-          "text": "I dont want to talk to a computer"
-        },
-        {
-          "text": "call the manager"
-        },
-        {
-          "text": "I want to speak to a human"
-        },
-        {
-          "text": "I want to talk to the manager"
-        },
-        {
-          "text": "A real agent, please."
-        },
-        {
-          "text": "Call agent"
-        },
-        {
-          "text": "talk to a human"
-        },
-        {
-          "text": "Agent help"
-        },
-        {
-          "text": "Yes, take me to a real person"
-        },
-        {
-          "text": "I need to speak to a representative. How would I go about doing so?"
-        },
-        {
-          "text": "Where is the closest agent?"
-        },
-        {
-          "text": "Send me to an agent"
-        },
-        {
-          "text": "I don't want to speak with a robot"
-        },
-        {
-          "text": "get me a person"
-        },
-        {
-          "text": "Can I connect to an agent?"
-        },
-        {
-          "text": "Can I speak to a human please?"
-        },
-        {
-          "text": "Can I speak to a live person?"
-        },
-        {
-          "text": "Can I speak to an advisor?"
-        },
-        {
-          "text": "Can I speak with somebody?"
-        },
-        {
-          "text": "Can I talk to someone?"
-        },
-        {
-          "text": "Can you assist me to connect to an agent?"
-        },
-        {
-          "text": "I want agent"
-        },
-        {
-          "text": "I want a manager"
-        },
-        {
-          "text": "I want an agent to help me"
-        },
-        {
-          "text": "I want to talk to a person"
-        },
-        {
-          "text": "I would like to speak to a human"
-        },
-        {
-          "text": "I would like to speak to someone"
-        },
-        {
-          "text": "Need help from human"
-        },
-        {
-          "text": "Could you please transfer me to your master?"
-        },
-        {
-          "text": "Operator please"
-        },
-        {
-          "text": "Please connect me to a live agent"
-        },
-        {
-          "text": "Please let me talk to a human being."
-        },
-        {
-          "text": "Pls connect"
-        },
-        {
-          "text": "Can you connect me with a real person?"
-        },
-        {
-          "text": "Connect me to a live operator please."
-        },
-        {
-          "text": "Contact person"
-        },
-        {
-          "text": "Please assist me to get to an agent"
-        },
-        {
-          "text": "Is there anyone there I can actually talk to for real?"
-        },
-        {
-          "text": "I don't want to talk to you"
-        },
-        {
-          "text": "I don't want to talk to a bot."
-        },
-        {
-          "text": "How can I skip the recorded menu and go straight to a live person?"
-        },
-        {
-          "text": "Hi can you transfer me"
-        },
-        {
-          "text": "Do not want a robot?"
-        },
-        {
-          "text": "Customer service representative please."
-        }
-      ],
-      "description": "Request a human agent."
-    },
-    {
-      "intent": "Customer_Care_Store_Hours",
-      "examples": [
-        {
-          "text": "are stores open on sunday"
-        },
-        {
-          "text": "How early do you open?"
-        },
-        {
-          "text": "What time do you open on Saturdays"
-        },
-        {
-          "text": "store open now"
-        },
-        {
-          "text": "open hours store"
-        },
-        {
-          "text": "when do your stores open"
-        },
-        {
-          "text": "when does the store close"
-        },
-        {
-          "text": "when can i visit your store"
-        },
-        {
-          "text": "store hrs"
-        },
-        {
-          "text": "store hours"
-        },
-        {
-          "text": "store open"
-        },
-        {
-          "text": "store open hours?"
-        },
-        {
-          "text": "What is the opening time for the washington store?"
-        },
-        {
-          "text": "Are you closing early today"
-        },
-        {
-          "text": "Are you closed new Year's eve"
-        },
-        {
-          "text": "how early do you open on Saturdays"
-        },
-        {
-          "text": "how late are you there"
-        },
-        {
-          "text": "how late y'all stay up till"
-        },
-        {
-          "text": "will you open on christmas"
-        },
-        {
-          "text": "Are the stores open early?"
-        },
-        {
-          "text": "Are you open during thanksgiving?"
-        },
-        {
-          "text": "Are you open on bank holidays?"
-        },
-        {
-          "text": "Are you open on sundays, and if so what are the hours?"
-        },
-        {
-          "text": "At what hour can I swing by?"
-        },
-        {
-          "text": "Can you tell me how late the stores are open till?"
-        },
-        {
-          "text": "Does the store in the city center opens till 8pm on weekends?"
-        },
-        {
-          "text": "How long are you open?"
-        },
-        {
-          "text": "Is the branch open now?"
-        },
-        {
-          "text": "What are the business hours of the store nearest to me?"
-        },
-        {
-          "text": "What are the hours of operation?"
-        },
-        {
-          "text": "What are the saturday opening times for the local store?"
-        },
-        {
-          "text": "What are ur opening hours?"
-        },
-        {
-          "text": "What are your hous?"
-        },
-        {
-          "text": "What time are you closing today?"
-        },
-        {
-          "text": "What time does the central manchester store shut on a saturday?"
-        },
-        {
-          "text": "What time do stores close?"
-        },
-        {
-          "text": "What time is your store open on saturday?"
-        },
-        {
-          "text": "what are your hours"
-        },
-        {
-          "text": "will you open for christmas"
-        },
-        {
-          "text": "will you be open Memorial day"
-        },
-        {
-          "text": "when do you close"
-        },
-        {
-          "text": "What time do you close"
-        },
-        {
-          "text": "what time do you close on Sunday"
-        },
-        {
-          "text": "What time do you close today"
-        },
-        {
-          "text": "Hours of operation"
-        },
-        {
-          "text": "Are you open on Sunday"
-        },
-        {
-          "text": "how late are you open"
-        },
-        {
-          "text": "how late are you open tonight"
-        }
-      ],
-      "description": "Find business hours."
-    },
-    {
       "intent": "General_Ending",
       "examples": [
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
         {
           "text": "I am out of here"
         },
@@ -346,361 +85,49 @@
           "text": "Bye bye"
         },
         {
-          "text": "Go off"
-        },
-        {
           "text": "Go away"
         },
         {
-          "text": "I d like to stop doing this"
-        },
-        {
-          "text": "I have got to go"
-        },
-        {
-          "text": "I want to quit"
-        },
-        {
-          "text": "I'm done"
-        },
-        {
-          "text": "Im done"
-        },
-        {
-          "text": "Im good thank you"
-        },
-        {
-          "text": "I'm leaving now"
-        },
-        {
-          "text": "It was nice chatting with you"
-        },
-        {
-          "text": "Ok goodbye"
-        },
-        {
-          "text": "See you later"
-        },
-        {
-          "text": "See you"
-        },
-        {
-          "text": "Shut up"
-        },
-        {
-          "text": "Stop doing this"
-        },
-        {
-          "text": "Stop talking to me"
-        },
-        {
-          "text": "Thank you for your time"
-        },
-        {
-          "text": "Thanks, bye!"
-        },
-        {
-          "text": "Thanks very much, bye!"
-        },
-        {
-          "text": "That is all"
+          "text": "Time to go"
         },
         {
           "text": "That's everything"
         },
         {
-          "text": "Time to go"
+          "text": "That is all"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Shut up"
         }
       ],
       "description": "End the conversation."
     },
     {
-      "intent": "General_Security_Assurance",
-      "examples": [
-        {
-          "text": "Are you safe on hackers?"
-        },
-        {
-          "text": "Are you safe?"
-        },
-        {
-          "text": "Can I be sure that my stored card details are held securely?"
-        },
-        {
-          "text": "Conversation secure?"
-        },
-        {
-          "text": "Customer info secured?"
-        },
-        {
-          "text": "Do you have protection against hacks?"
-        },
-        {
-          "text": "How do I know if my card info is kept safe?"
-        },
-        {
-          "text": "How do I know this chat is not a scam?"
-        },
-        {
-          "text": "How is my credit card info secured?"
-        },
-        {
-          "text": "How safe is my data?"
-        },
-        {
-          "text": "I'd like proof of a secure chat"
-        },
-        {
-          "text": "In what way can I tell if my plastic is safe?"
-        },
-        {
-          "text": "Is my card info secure?"
-        },
-        {
-          "text": "Is my payment information secure?"
-        },
-        {
-          "text": "Is there a reason to distrust this chat?"
-        },
-        {
-          "text": "Is this a trusted chat site?"
-        },
-        {
-          "text": "Is this an official chat?"
-        },
-        {
-          "text": "Is this conversation secure?"
-        },
-        {
-          "text": "Precautions hackers?"
-        },
-        {
-          "text": "Protection hacks?"
-        },
-        {
-          "text": "Secure conversation?"
-        },
-        {
-          "text": "What guards do you have in place to protect your customer's data?"
-        },
-        {
-          "text": "What makes this chat trustworthy?"
-        },
-        {
-          "text": "What safety measures are used to ensure that chat is secure?"
-        },
-        {
-          "text": "Why would I trust this chat?"
-        },
-        {
-          "text": "Will my conversation remain secured?"
-        }
-      ],
-      "description": "Express concerns about the security of the bot."
-    },
-    {
-      "intent": "General_Jokes",
-      "examples": [
-        {
-          "text": "Are there jokes?"
-        },
-        {
-          "text": "Another joke"
-        },
-        {
-          "text": "Can you tell a joke?"
-        },
-        {
-          "text": "Can you tell me a joke?"
-        },
-        {
-          "text": "Do you have a joke?"
-        },
-        {
-          "text": "Do you have humor?"
-        },
-        {
-          "text": "Do you like fun?"
-        },
-        {
-          "text": "Do you like humor?"
-        },
-        {
-          "text": "I am getting bored"
-        },
-        {
-          "text": "I want a joke"
-        },
-        {
-          "text": "I'm bored"
-        },
-        {
-          "text": "One more joke"
-        },
-        {
-          "text": "Surprise me with something hilarious"
-        },
-        {
-          "text": "Tell me a joke"
-        },
-        {
-          "text": "Tell me something funny"
-        },
-        {
-          "text": "What do you do for fun?"
-        },
-        {
-          "text": "What is your favorite joke?"
-        }
-      ],
-      "description": "Request a joke."
-    },
-    {
-      "intent": "General_Agent_Capabilities",
-      "examples": [
-        {
-          "text": "Can you tell me what services you are able to help me with?"
-        },
-        {
-          "text": "Help now"
-        },
-        {
-          "text": "Hi, what do you do?"
-        },
-        {
-          "text": "What are you used for?"
-        },
-        {
-          "text": "What are you good at?"
-        },
-        {
-          "text": "What are you capable of?"
-        },
-        {
-          "text": "What are you able to understand?"
-        },
-        {
-          "text": "What are you able to deal with?"
-        },
-        {
-          "text": "What are my options?"
-        },
-        {
-          "text": "What are my options that you can help with?"
-        },
-        {
-          "text": "Tell me something"
-        },
-        {
-          "text": "Tell me about what kind of things you do?"
-        },
-        {
-          "text": "Is there anything you can help me with?"
-        },
-        {
-          "text": "I'd like to know what type of questions you can answer for me."
-        },
-        {
-          "text": "How can you solve my problems?"
-        },
-        {
-          "text": "How can you help me?"
-        },
-        {
-          "text": "How can I use you?"
-        },
-        {
-          "text": "How do I use you?"
-        },
-        {
-          "text": "I do not know what to ask"
-        },
-        {
-          "text": "Can you please give me a list of the types of things you can help me with?"
-        },
-        {
-          "text": "Do you have a list of things I can talk to you about?"
-        },
-        {
-          "text": "Where can I find the frequently asked questions?"
-        },
-        {
-          "text": "What kinds of things can you do?"
-        },
-        {
-          "text": "What is this 4?"
-        },
-        {
-          "text": "What features are in here?"
-        },
-        {
-          "text": "What else can you help me with?"
-        },
-        {
-          "text": "What do you handle?"
-        },
-        {
-          "text": "What do you do?"
-        },
-        {
-          "text": "What can I ask you to do?"
-        },
-        {
-          "text": "What are your skills?"
-        }
-      ],
-      "description": "Request capabilities of the bot."
-    },
-    {
-      "intent": "General_Human_or_Bot",
-      "examples": [
-        {
-          "text": "Am I chatting with a human?"
-        },
-        {
-          "text": "Tell me, are you a human or no?"
-        },
-        {
-          "text": "Is this a computer?"
-        },
-        {
-          "text": "How can you prove you are a human?"
-        },
-        {
-          "text": "Are you real?"
-        },
-        {
-          "text": "Are you human?"
-        },
-        {
-          "text": "Are you even real?"
-        },
-        {
-          "text": "Are you a robot?"
-        },
-        {
-          "text": "Are you a human or a bot?"
-        },
-        {
-          "text": "Am I talking to a person or am I talking to an AI?"
-        },
-        {
-          "text": "Am I talking to a Bot?"
-        },
-        {
-          "text": "Am I talking to Watson?"
-        }
-      ],
-      "description": "Ask if speaking to a human or a bot."
-    },
-    {
       "intent": "Goodbye",
       "examples": [
         {
-          "text": "good bye"
+          "text": "bye bye"
         },
         {
-          "text": "so long"
+          "text": "take care"
+        },
+        {
+          "text": "bye"
         },
         {
           "text": "ciao"
@@ -712,7 +139,13 @@
           "text": "see ya"
         },
         {
-          "text": "bye"
+          "text": "good bye"
+        },
+        {
+          "text": "so long"
+        },
+        {
+          "text": "Goodbye"
         }
       ],
       "description": "Good byes"
@@ -721,7 +154,49 @@
       "intent": "General_Positive_Feedback",
       "examples": [
         {
-          "text": "You've been so helpful :)"
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "How cool is this?"
         },
         {
           "text": "Can't believe you are that good"
@@ -730,49 +205,7 @@
           "text": "Brilliant!"
         },
         {
-          "text": "How cool is this?"
-        },
-        {
-          "text": "I like what you did there! :)"
-        },
-        {
-          "text": "I'm looking forward to working with you again! :)"
-        },
-        {
-          "text": "Love your work"
-        },
-        {
-          "text": "Ok thank you"
-        },
-        {
-          "text": "This is good"
-        },
-        {
-          "text": "This is great"
-        },
-        {
-          "text": "This is so cool"
-        },
-        {
-          "text": "You are awesome"
-        },
-        {
-          "text": "You are great"
-        },
-        {
-          "text": "You are the best"
-        },
-        {
-          "text": "You are wonderful"
-        },
-        {
-          "text": "You gave me exactly what I need!"
-        },
-        {
-          "text": "You the man"
-        },
-        {
-          "text": "You're a genius!"
+          "text": "You've been so helpful :)"
         }
       ],
       "description": "Express positive sentiment or gratitude."
@@ -781,27 +214,51 @@
       "intent": "product",
       "examples": [
         {
-          "text": "bluetooth",
+          "text": "battery safety?"
+        },
+        {
+          "text": "Use google assistant",
           "mentions": [
             {
-              "entity": "connectivity",
+              "entity": "Basic",
               "location": [
-                0,
-                9
+                4,
+                20
               ]
             }
           ]
         },
         {
-          "text": "How to create a backup?"
-        },
-        {
-          "text": "how to use android beam?",
+          "text": "What are the basic gestures?",
           "mentions": [
             {
-              "entity": "connectivity",
+              "entity": "Basic",
               "location": [
-                11,
+                13,
+                27
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How to quickly turn on the camera?",
+          "mentions": [
+            {
+              "entity": "Basic",
+              "location": [
+                27,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "text": "what are quick gestures?",
+          "mentions": [
+            {
+              "entity": "Basic",
+              "location": [
+                9,
                 23
               ]
             }
@@ -820,49 +277,25 @@
           ]
         },
         {
-          "text": "what are quick gestures?",
+          "text": "how to use android beam?",
           "mentions": [
             {
-              "entity": "Basic",
+              "entity": "connectivity",
               "location": [
-                9,
+                11,
                 23
               ]
             }
           ]
         },
         {
-          "text": "How to quickly turn on the camera?",
+          "text": "bluetooth",
           "mentions": [
             {
-              "entity": "Basic",
+              "entity": "connectivity",
               "location": [
-                27,
-                33
-              ]
-            }
-          ]
-        },
-        {
-          "text": "What are the basic gestures?",
-          "mentions": [
-            {
-              "entity": "Basic",
-              "location": [
-                13,
-                27
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Use google assistant",
-          "mentions": [
-            {
-              "entity": "Basic",
-              "location": [
-                4,
-                20
+                0,
+                9
               ]
             }
           ]
@@ -952,13 +385,13 @@
           "text": "what is ram boost?"
         },
         {
-          "text": "battery safety?"
-        },
-        {
           "text": "how to invert color?"
         },
         {
           "text": "charging safety"
+        },
+        {
+          "text": "How to create a backup?"
         }
       ],
       "description": "answer product related to question"
@@ -968,6 +401,9 @@
       "examples": [
         {
           "text": "much appreciated"
+        },
+        {
+          "text": "thank you for your help"
         },
         {
           "text": "Thank you"
@@ -989,87 +425,72 @@
         },
         {
           "text": "i appreciate it"
+        },
+        {
+          "text": "thanks so much"
         }
       ],
       "description": "Thanks"
     },
     {
-      "intent": "Cancel",
-      "examples": [
-        {
-          "text": "forget it"
-        },
-        {
-          "text": "nevermind"
-        },
-        {
-          "text": "i don't want a table anymore anymore"
-        },
-        {
-          "text": "cancel the request"
-        },
-        {
-          "text": "i changed my mind"
-        },
-        {
-          "text": "cancel that"
-        },
-        {
-          "text": "never mind"
-        }
-      ],
-      "description": "Cancel the current request"
-    },
-    {
       "intent": "General_Greetings",
       "examples": [
         {
-          "text": "Good to see you"
-        },
-        {
-          "text": "Ok take me back"
-        },
-        {
-          "text": "Hi advisor"
-        },
-        {
-          "text": "Hey twin"
-        },
-        {
-          "text": "Hi there"
-        },
-        {
-          "text": "What's new?"
-        },
-        {
-          "text": "Hey there"
-        },
-        {
-          "text": "Who is this?"
-        },
-        {
-          "text": "You there"
-        },
-        {
-          "text": "How is it going?"
+          "text": "Looking good eve"
         },
         {
           "text": "Hey you"
         },
         {
-          "text": "Looking good eve"
+          "text": "How is it going?"
         },
         {
-          "text": "How r u?"
+          "text": "You there"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "Hey twin"
         },
         {
           "text": "hi"
         },
         {
-          "text": "Greetings"
+          "text": "Ok take me back"
         },
         {
-          "text": "Good morning"
+          "text": "What's up?"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hi advisor"
         },
         {
           "text": "Good evening"
@@ -1093,25 +514,16 @@
           "text": "How have you been?"
         },
         {
-          "text": "What's up?"
+          "text": "How r u?"
         },
         {
-          "text": "Hey there all"
+          "text": "Greetings"
         },
         {
-          "text": "Hey how are you doing"
+          "text": "Good to see you"
         },
         {
-          "text": "Hello I am looking for some help here"
-        },
-        {
-          "text": "Hello"
-        },
-        {
-          "text": "Hello Agent"
-        },
-        {
-          "text": "Have you been well?"
+          "text": "Good morning"
         }
       ],
       "description": "Greetings"
@@ -1120,25 +532,25 @@
       "intent": "Help",
       "examples": [
         {
-          "text": "i need assistance"
-        },
-        {
-          "text": "what can i do"
-        },
-        {
-          "text": "help me"
-        },
-        {
-          "text": "help me decide"
-        },
-        {
-          "text": "help"
+          "text": "can you help"
         },
         {
           "text": "can you assist me"
         },
         {
-          "text": "can you help"
+          "text": "help"
+        },
+        {
+          "text": "help me decide"
+        },
+        {
+          "text": "help me"
+        },
+        {
+          "text": "what can i do"
+        },
+        {
+          "text": "i need assistance"
         },
         {
           "text": "what can i say"
@@ -1149,6 +561,9 @@
     {
       "intent": "General_Negative_Feedback",
       "examples": [
+        {
+          "text": "You are very frustrating"
+        },
         {
           "text": "Do not like you?"
         },
@@ -1195,9 +610,6 @@
           "text": "You are on my nerves"
         },
         {
-          "text": "You are very frustrating"
-        },
-        {
           "text": "You do not seem smart"
         },
         {
@@ -1213,127 +625,43 @@
       "description": "Express unfavorable feedback."
     },
     {
-      "intent": "Customer_Care_Store_Location",
-      "examples": [
-        {
-          "text": "Where is?"
-        },
-        {
-          "text": "Find store"
-        },
-        {
-          "text": "where are you"
-        },
-        {
-          "text": "I'd like to go to a store"
-        },
-        {
-          "text": "I need help with find a store"
-        },
-        {
-          "text": "I want to know about a store"
-        },
-        {
-          "text": "Looking for a location"
-        },
-        {
-          "text": "Go to your company"
-        },
-        {
-          "text": "What is the closest store to my address?"
-        },
-        {
-          "text": "give me directions"
-        },
-        {
-          "text": "which cross streets are you on"
-        },
-        {
-          "text": "how can i get to you from grand central"
-        },
-        {
-          "text": "please suggest route from times square"
-        },
-        {
-          "text": "Where is your office?"
-        },
-        {
-          "text": "what is the address"
-        },
-        {
-          "text": "how do i find you"
-        },
-        {
-          "text": "location please"
-        },
-        {
-          "text": "can you give me directions"
-        },
-        {
-          "text": "where are you located"
-        },
-        {
-          "text": "how do i get to your place"
-        },
-        {
-          "text": "What is the nearest branch?"
-        },
-        {
-          "text": "What is the store near my zip code?"
-        },
-        {
-          "text": "what's your location"
-        },
-        {
-          "text": "how do i get to your business"
-        },
-        {
-          "text": "Where are you located?"
-        }
-      ],
-      "description": "Locate a physical store location or an address."
-    },
-    {
       "intent": "General_About_You",
       "examples": [
         {
-          "text": "About you"
-        },
-        {
-          "text": "Why are you here?"
-        },
-        {
-          "text": "Who are you?"
-        },
-        {
-          "text": "Where were you born?"
-        },
-        {
-          "text": "Where are you from?"
-        },
-        {
-          "text": "What's your name?"
-        },
-        {
-          "text": "What should I know about you?"
-        },
-        {
-          "text": "What languages do you speak?"
-        },
-        {
-          "text": "Tell me something about yourself"
-        },
-        {
-          "text": "Tell me about your life"
-        },
-        {
-          "text": "Let us talk about you"
+          "text": "I want to set up the chat bot for my shop"
         },
         {
           "text": "Introduce your self"
         },
         {
-          "text": "I want to set up the chat bot for my shop"
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Why are you here?"
         },
         {
           "text": "How old are you?"
@@ -1354,76 +682,13 @@
           "text": "Can I use another language?"
         },
         {
+          "text": "About you"
+        },
+        {
           "text": "How can I configure you?"
         }
       ],
       "description": "Request generic personal attributes."
-    },
-    {
-      "intent": "Customer_Care_Appointments",
-      "examples": [
-        {
-          "text": "are you available on tuesday"
-        },
-        {
-          "text": "can i book for tonight"
-        },
-        {
-          "text": "do you have availability next week"
-        },
-        {
-          "text": "can you make an appointment for me"
-        },
-        {
-          "text": "meet in store"
-        },
-        {
-          "text": "can i make an appointment"
-        },
-        {
-          "text": "I would like to discuss my situation face to face"
-        },
-        {
-          "text": "I want to talk in person with someone about my case"
-        },
-        {
-          "text": "I would like to make an appointment to visit the nearest store to my location."
-        },
-        {
-          "text": "Could I speak to someone in the store next tuesday?"
-        },
-        {
-          "text": "Can I book an in person session"
-        },
-        {
-          "text": "i'd like to make an appointment"
-        },
-        {
-          "text": "What time can I meet the staff?"
-        },
-        {
-          "text": "When can I meet with one of your employees at your store?"
-        },
-        {
-          "text": "Want to change my visit"
-        },
-        {
-          "text": "Store appointment"
-        },
-        {
-          "text": "Set up an appt"
-        },
-        {
-          "text": "Make an appointment"
-        },
-        {
-          "text": "i'd like to come in for an appointment"
-        },
-        {
-          "text": "I prefer a face to face visit"
-        }
-      ],
-      "description": "Schedule or manage an in-store appointment."
     }
   ],
   "entities": [
@@ -1910,7 +1175,7 @@
             "No problem. Just let me know if you need anything else",
             "My pleasure. Just let me know if you need anything else"
           ],
-          "selection_policy": "sequential"
+          "selection_policy": "random"
         }
       },
       "metadata": {},
@@ -1927,13 +1192,14 @@
           "values": [
             "So long",
             "See ya",
-            "Good bye"
+            "Goodbye",
+            "have a nice day!!"
           ],
-          "selection_policy": "sequential"
+          "selection_policy": "random"
         }
       },
       "metadata": {},
-      "conditions": "#Goodbye",
+      "conditions": "#Goodbye || #General_Ending",
       "digress_in": "does_not_return",
       "dialog_node": "node_12_1468329566917",
       "previous_sibling": "node_2_1468243505617"
