@@ -9,7 +9,9 @@ The scope of the project is to develop a smart chatbot focusing on customer requ
 The goal of this project is to build an intelligent chatbot for businesses to scale faster without using excess human resources and for consumers to get interactive answers without having to read a user manual using a chatbot.
 The bot created in this project is based on the OnePlus user manual of their latest smart-phone OnePlus 8 Pro.
 
+The node-red flow of my project is as follows:
+<img src="node-red/node-red-flow.png" >
 #### Project Links
 
 1. Chatbot Link: [One Plus 8 Customer Chatbot](https://smart-doc-understanding.eu-gb.mybluemix.net/ui/#!/0?socketid=Tsx4fXG1K1MxCHoyAAAv)
-2. Project Video: [To be added]()
+2. Project Video: [To be added](https://youtu.be/Pb1gtQGxnQc)
